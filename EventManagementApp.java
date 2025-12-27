@@ -8,7 +8,7 @@ class DBConnection {
    private static final String URL = "jdbc:mysql://localhost:3306/eventdb";
     private static final String USER = "root";
     // enter your own MySQL password here
-    private static final String PASS = "";
+    private static final String PASS = "Yash@1234";
 
     static {
         try {
@@ -820,4 +820,5 @@ public class EventManagementApp {
             new CustomerForm().setVisible(true);
         });
     }
+
 } 
